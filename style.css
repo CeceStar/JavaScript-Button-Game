@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #edf2f4;
+  font-family: "Inter";
+}
+/*Choosen colors:
+Dark bue: #2b2d42
+Light blue: #8D99AE
+Almost White: #EDF2F4
+Cherry red: #EF233C
+Darker red: #D90429 */
+
+/* Font styles and colors */
+h1 {
+  font-family: "Inter";
+  color: #ef233c;
+  display: inline;
+}
+
+h2 {
+  font-family: "Inter";
+  color: #ef233c;
+}
+
+h3 {
+  font-family: "Inter";
+  color: #ef233c;
+}
+
+/* Before the game area */
+.heading-and-intro {
+  margin: 40px 40px 10px 40px;
+  width: 90%;
+}
+.parent {
+  position: relative;
+}
+
+.first-word {
+  color: rgba(202, 201, 201, 0.644);
+}
+.timer {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+.text-and-score {
+  font-size: medium;
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.scorenumber {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.your-score {
+  position: absolute;
+  bottom: 0;
+  right: 70px;
+}
+
+.text-part {
+  color: #2b2d42;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+}
+
+.transition {
+  color: #d90429;
+  /* text-shadow: 2px 2px 8px #2b2d42; */
+  font-size: large;
+  transition: all 2s;
+}
+
+.transition-score {
+  color: #d90429;
+  /* text-shadow: 2px 2px 8px #2b2d42; */
+  font-size: xx-large;
+  font-weight: bold;
+  transition: all 2s;
+}
+
+/* Game area */
+.window-of-game {
+  width: 90%;
+  height: 650px;
+  border-radius: 20px;
+  border: 5px dotted #ef233c;
+  margin: 0px 40px 10px 40px;
+  position: relative;
+}
+
+.button {
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #d90429;
+  color: #edf2f4;
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d90429;
+  padding: 15px;
+  transition-duration: 0.1s;
+  text-decoration: none;
+}
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/* High Score div */
+.high-score {
+  width: 90%;
+  height: 30px;
+  margin: 10px 40px 10px 40px;
+}
+/* 
+.high-score-number {
+
+} */
