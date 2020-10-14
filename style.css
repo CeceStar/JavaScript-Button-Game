@@ -109,12 +109,13 @@ h3 {
   cursor: pointer;
 }
 
-.button:hover {
+/* .button:hover {
   background-color: #d90429;
   padding: 15px;
   transition-duration: 0.1s;
   text-decoration: none;
-}
+} */
+
 .button:focus {
   text-decoration: none;
   outline: none;
