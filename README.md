@@ -1,4 +1,6 @@
-# The Button Game (Brief 2 *Fundamentals - Interactive webpage*)
+# The Button Game 
+
+### (Brief 2 *Fundamentals - Interactive webpage*)
 
 A game about "not clicking a button". My first try on Javascript!
 
