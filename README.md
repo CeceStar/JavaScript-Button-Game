@@ -1,4 +1,5 @@
-# The Button Game
+# The Button Game (Brief 2 *Fundamentals - Interactive webpage*)
+
 A game about "not clicking a button". My first try on Javascript!
 
 The brief was to create a javascript game, and I was so completly new to Javascript that I could not imagine how I was supposed to create a game. I told people in the class that ".. All I can do is create a clickable button", and the idea was born!
